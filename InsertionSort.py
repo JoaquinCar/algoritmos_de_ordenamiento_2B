@@ -2,6 +2,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
+#Equipo de Miroslava Moheno
 def insertion_sort(A): #Función Insertión sort
  for j in range(1,len(A)): #Iteraciones
     key = A[j]
@@ -22,7 +23,7 @@ def average_case(n):
     return np.random.permutation(n).tolist()#listas nandom
 
 
-sizes = list(range(10, 1000, 10)) #Lista de 1000 nums salto de 10
+sizes = list(range(0, 10000, 1000)) #Lista de 1000 nums salto de 10
 best_times = []
 worst_times = []
 average_times = []
@@ -30,7 +31,7 @@ average_times = []
 for n in sizes:
     # Mejor caso
     best_time = []
-    for _ in range(100): #Num-Iteraciones de proceso para graficar
+    for _ in range(20): #Num-Iteraciones de proceso para graficar
         best_input = best_case(n)
         start = time.time()
         insertion_sort(best_input)
@@ -40,7 +41,7 @@ for n in sizes:
 
     # Peor caso
     worst_time = []
-    for _ in range(100):#Num-Iteraciones de proceso para graficar
+    for _ in range(20):#Num-Iteraciones de proceso para graficar
         worst_input = worst_case(n)
         start = time.time()
         insertion_sort(worst_input)
@@ -50,7 +51,7 @@ for n in sizes:
 
     # Caso promedio
     avg_time = []
-    for _ in range(100):#Num-Iteraciones de proceso para graficar
+    for _ in range(20):#Num-Iteraciones de proceso para graficar
         avg_input = average_case(n)
         start = time.time()
         insertion_sort(avg_input)
