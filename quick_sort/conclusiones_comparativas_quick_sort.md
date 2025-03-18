@@ -13,8 +13,11 @@ Uso de memoria: A diferencia de Merge Sort, Quicksort puede implementarse de for
 📌 Recomendaciones de uso según el tamaño y tipo de datos
 
 Listas grandes y desordenadas: Quicksort es ideal debido a su eficiencia promedio de O(n log n).
+
 Listas parcialmente ordenadas: Puede funcionar bien si se usa una estrategia de pivote adecuada (como el pivote del medio).
+
 Listas pequeñas: Para tamaños reducidos (generalmente ≤ 10 elementos), se recomienda el uso de Insertion Sort, ya que el costo de la recursión en Quicksort no se justifica en listas cortas.
+
 Datos con muchas repeticiones: Puede no ser la mejor opción, ya que puede generar particiones desbalanceadas. En estos casos, variantes como Quicksort de 3 vías pueden mejorar el rendimiento.
 
 🤔 Reflexión sobre el impacto de la elección del algoritmo
