@@ -1,0 +1,40 @@
+CONCEPTO
+
+El quickSort ordena un arreglo al seleccionar un elemento denominado pivote, luego divide el arreglo en dos subconjuntos:
+
+Elementos menores que el pivote
+Elementos mayores que el pivote
+
+Después, aplica recursivamente el mismo procedimiento a cada subconjunto hasta que la lista completa esté ordenada.
+
+Pasos:
+Elegir un pivote (puede ser el primer elemento, el último o uno aleatorio).
+Particionar el arreglo en dos subconjuntos: elementos menores al pivote y elementos mayores al pivote.
+Aplicar recursivamente QuickSort en cada subconjunto.
+Combinar los subconjuntos para obtener la lista ordenada.
+
+COMPLEJIDAD
+
+La eficiencia del QuickSort depende de la elección del pivote y de la distribución de los elementos:
+
+Caso promedio y mejor caso: 𝑂(𝑛 log𝑛)
+
+Ocurre cuando el pivote divide el arreglo en partes aproximadamente iguales en cada paso.
+
+Peor caso: 𝑂(𝑛^2)
+
+Ocurre cuando el pivote es el menor o el mayor elemento del arreglo en cada partición.
+
+VENTAJAS Y DESVENTAJAS
+
+✅ Ventajas:
+
+Rápido en la mayoría de los casos (O(nlogn) en promedio).
+Uso eficiente de la memoria caché debido al acceso secuencial en la partición.
+Algoritmo en sitio (in-place) con bajo uso de memoria adicional.
+
+❌ Desventajas:
+
+No es estable (puede cambiar el orden de elementos iguales).
+Su peor caso es 𝑂(𝑛^2), aunque estrategias como la elección aleatoria del pivote pueden mitigarlo.
+La versión recursiva puede causar problemas de stack overflow si la profundidad de la recursión es grande.
