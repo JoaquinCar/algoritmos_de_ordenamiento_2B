@@ -1,4 +1,4 @@
-Conclusión
+CONCLUSIÓN
 
 El algoritmo Merge Sort es una de las técnicas de ordenación más eficientes y ampliamente 
 utilizadas en la informática, basada en el enfoque de divide y vencerás. 
