@@ -1,0 +1,10 @@
+El código proporciona el merge sort para medir y graficar el tiempo de ejecución en los escenarios proporcionados,
+en el que sigue el paradigma de dividir la lista en dos: entrada y salida. La entrada contiene una lista de números
+mientras que la salida contiene elementos ordenados de manera ascendente. Su funcionamiento consiste en que compara
+los elementos del uno al otro y agregar elementos en la lista ordenada (sorted list) en caso de que se lleguen a agotar.
+Luego de renderizar la simulación, grafica los resultados del mejor caso, el peor caso y el caso promedio, los cuales
+visualizan el crecimiento del tiempo de ejecución.
+
+Ejemplo de entrada: Si no requiere de entrada manual, genera automaticamente las listas de diferentes tamaños.
+Ejemplo de salida: Muestra el tiempo de ejecución del algoritmo merge_sort en función del tamaño de la lista
+para los casos presentes.

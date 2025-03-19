@@ -1,0 +1,46 @@
+INTRODUCCIÓN 
+
+Proposito de este repositorio
+Este repositorio tiene el propósito de servir como una herramienta educativa y de referencia para estudiantes, docentes e investigadores interesados en el estudio y 
+aplicación de algoritmos de ordenamiento. Su objetivo principal es informar, explicar y demostrar el funcionamiento de diversos algoritmos de ordenamiento, 
+proporcionando un enfoque integral que abarca tanto la teoría como la implementación práctica.
+
+Explicación Teórica
+Se presenta una descripción detallada de cada algoritmo de ordenamiento, destacando sus principios fundamentales y la lógica detrás de su funcionamiento.
+Se incluyen diagramas gráficos que ilustran paso a paso el proceso de ordenamiento, facilitando la comprensión visual del algoritmo.
+Se proporciona el pseudocódigo correspondiente para una mejor interpretación del flujo de ejecución.
+Importancia de algoritmos de ordenamiento
+
+Análisis de Complejidad
+
+Se analizan los distintos escenarios en los que cada algoritmo puede operar, incluyendo el mejor caso (best case), el peor caso (worst case) y el caso promedio (average case).
+Se presentan tablas comparativas de complejidad temporal para diferentes tamaños de entrada, lo que permite visualizar cómo se comporta cada algoritmo en distintas condiciones.
+
+Implementación en Python
+
+Se incluyen versiones implementadas en Python para cada algoritmo, proporcionando un código claro y bien documentado que facilita su comprensión y reutilización.
+Se presentan ejemplos de entrada y salida para demostrar el funcionamiento del código en casos concretos.
+
+Análisis Empírico del Rendimiento
+
+Se desarrolla código adicional para medir los tiempos de ejecución de los algoritmos bajo distintas circunstancias, como tamaños de entrada crecientes o datos desordenados de diversas formas.
+Se generan gráficos comparativos que ilustran el rendimiento de cada algoritmo en función del tamaño de los datos de entrada.
+
+Conclusiones Comparativas
+
+Se realiza un análisis comparativo de los algoritmos, destacando sus ventajas y desventajas en distintos escenarios.
+Se presentan recomendaciones sobre cuándo utilizar cada algoritmo en función de la naturaleza de los datos y los requisitos de eficiencia.
+
+Importancia de los algortimos de ordenamiento
+En bases de datos, los algoritmos de ordenamiento desempeñan un papel clave al permitir que las consultas y operaciones sobre grandes volúmenes de datos sean más 
+rápidas y eficientes. Un conjunto de datos ordenado facilita la búsqueda de información específica mediante técnicas como la búsqueda binaria, que tiene una }
+complejidad mucho menor que la búsqueda secuencial en datos desordenados.
+
+Cada algoritmo de ordenamiento tiene sus propias ventajas y desventajas dependiendo del contexto en el que se utilice.
+Comprender sus diferencias permite seleccionar el más adecuado para una tarea específica.
+
+Algoritmos como QuickSort o MergeSort son ideales para grandes volúmenes de datos debido a su eficiencia en términos de complejidad temporal.
+BubbleSort y SelectionSort, aunque menos eficientes en general, pueden ser útiles para pequeñas cantidades de datos debido a su simplicidad y facilidad de implementación.
+RadixSort o CountingSort pueden ser preferidos cuando se trabaja con datos numéricos dentro de rangos definidos, ya que ofrecen tiempos de ejecución lineales en ciertos casos.
+Lista de algoritmos:
+-MergeSort

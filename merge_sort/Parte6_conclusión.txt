@@ -1,0 +1,24 @@
+Conclusión
+
+El algoritmo Merge Sort es una de las técnicas de ordenación más eficientes y ampliamente 
+utilizadas en la informática, basada en el enfoque de divide y vencerás. 
+Su principal ventaja radica en su consistencia en el tiempo de ejecución, 
+alcanzando una complejidad de O(n log n) en todos los casos, lo que lo convierte en una 
+opción preferida cuando se busca una solución eficiente para ordenar grandes volúmenes de 
+datos. Además, su naturaleza estable garantiza que los elementos con valores iguales
+mantendrán su orden relativo, lo que resulta útil en muchos escenarios donde 
+la estabilidad es crucial.
+
+Por otro lado, una de las principales desventajas de Merge Sort es su alto uso de memoria.
+A diferencia de otros algoritmos como Quick Sort o Insertion Sort, que pueden operar en 
+el mismo espacio de memoria del arreglo original, Merge Sort requiere espacio adicional 
+para almacenar las sublistas durante el proceso de fusión. Esto puede convertirse en un 
+inconveniente cuando se trabaja con arreglos muy grandes o en sistemas con recursos limitados.
+
+Otra limitación importante es que, debido a su implementación recursiva, puede enfrentar
+problemas de desbordamiento de pila si el arreglo es demasiado grande, lo que hace que la
+eficiencia en ciertos entornos sea dependiente de la capacidad del sistema.
+
+En resumen, Merge Sort es un algoritmo poderoso y robusto que ofrece un 
+rendimiento sólido y predecible, pero su uso de memoria y la complejidad de su 
+implementación recursiva pueden ser factores a considerar dependiendo del contexto en el que se utilice.
