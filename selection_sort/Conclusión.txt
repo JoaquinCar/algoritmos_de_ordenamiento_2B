@@ -1,0 +1,10 @@
+El algoritmo de ordenamiento por selección es una técnica sencilla y directa para organizar una lista de elementos. 
+Su principal característica es que selecciona el elemento más pequeño en cada paso y lo coloca en su posición definitiva.
+
+Independientemente de si la lista está ordenada, parcialmente ordenada o completamente desordenada, el tiempo de ejecución siempre se mantiene en O(n²). 
+Esto implica que, en todos los casos, el número de operaciones crece de forma cuadrática con respecto al número de elementos.
+
+Aunque este algoritmo no es eficiente para grandes volúmenes de datos, resulta adecuado para listas pequeñas o en situaciones donde la simplicidad y 
+la reducción de intercambios sean más importantes que la optimización del tiempo de ejecución. Además, el algoritmo de selección es fundamental en la informática y 
+sirve como base para comprender otros algoritmos de ordenamiento más avanzados.
+

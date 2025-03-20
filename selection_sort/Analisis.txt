@@ -1,0 +1,36 @@
+Mejor Caso (Best Case)
+
+El mejor caso para el algoritmo de ordenamiento por selección ocurre cuando la lista ya está completamente ordenada. Sin embargo, a diferencia de otros algoritmos de ordenamiento, 
+esto no reduce significativamente el número de operaciones. A pesar de estar ordenada, el algoritmo realiza las mismas comparaciones para verificar que cada elemento esté en su lugar.
+
+PROCEDIMIENTO selection_sort (Vector a [1:n])
+
+Como el bucle exterior se ejecuta n-1 veces y el bucle interno realiza aproximadamente n-i comparaciones en cada iteración, la cantidad total de comparaciones es:
+
+T(n) ≈ (n - 1) + (n - 2) + ... + 1 = n(n - 1) / 2 = O(n²)
+
+Complejidad Temporal: O(n²)
+
+Peor Caso (Worst Case)
+
+El peor caso se da cuando la lista está completamente ordenada en orden inverso. A pesar de esto, el algoritmo realiza el mismo número de comparaciones que en el mejor caso. 
+Sin embargo, en este escenario, también se ejecuta el máximo número de intercambios posibles.
+
+PROCEDIMIENTO selection_sort (Vector a [1:n])
+
+La complejidad temporal sigue siendo:
+
+T(n) ≈ (n - 1) + (n - 2) + ... + 1 = n(n - 1) / 2 = O(n²)
+
+Complejidad Temporal: O(n²)
+
+Caso Promedio (Average Case)
+
+El caso promedio representa la situación más común, donde los elementos están en un orden aleatorio. 
+El número de comparaciones sigue siendo el mismo que en los otros casos, ya que el algoritmo no depende del orden inicial de los elementos.
+
+PROCEDIMIENTO selection_sort (Vector a [1:n])
+
+T(n) ≈ (n - 1) + (n - 2) + ... + 1 = n(n - 1) / 2 = O(n²)
+
+Complejidad Temporal: O(n²)
