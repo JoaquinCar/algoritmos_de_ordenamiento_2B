@@ -1,0 +1,17 @@
+El Selection Sort es un algoritmo de ordenamiento sencillo pero ineficiente para grandes volúmenes de datos. 
+Su funcionamiento se basa en recorrer el arreglo para encontrar el elemento más pequeño y luego colocarlo en la posición correcta mediante un intercambio. 
+Este proceso se repite para cada posición del arreglo hasta que esté completamente ordenado.
+
+Comparado con otros algoritmos como el Bubble Sort o el Insertion Sort, el Selection Sort comparte la misma complejidad temporal en el peor caso, que es O(n²). 
+Sin embargo, una diferencia clave es que el Selection Sort realiza el número mínimo de intercambios posible, lo que puede ser una ventaja si mover elementos es una operación costosa. 
+Por otro lado, el Bubble Sort tiende a ser más eficiente si la lista ya está parcialmente ordenada, ya que en su mejor caso puede alcanzar una complejidad de O(n). 
+El Insertion Sort también destaca en este aspecto, siendo muy eficiente con listas casi ordenadas.
+
+En comparación con algoritmos más avanzados como el Quick Sort, el Selection Sort es significativamente más lento, ya que el Quick Sort alcanza una complejidad 
+promedio de O(n log n), lo que lo hace mucho más adecuado para grandes volúmenes de datos.
+
+Una desventaja importante del Selection Sort es que no es estable, lo que significa que puede alterar el orden relativo de elementos iguales. 
+Además, su mejor caso es igual de lento que su peor caso, ya que siempre realiza el mismo número de comparaciones sin importar el estado inicial de los datos.
+
+En resumen, el Selection Sort es adecuado únicamente para listas pequeñas o cuando se desea minimizar la cantidad de intercambios. 
+Para listas grandes o con estructuras parcialmente ordenadas, algoritmos como el Insertion Sort o el Quick Sort suelen ser opciones más eficientes.

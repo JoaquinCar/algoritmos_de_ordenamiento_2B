@@ -1,0 +1,9 @@
+Selection_sort(arreglo):
+    Para i en rango(0, leng(arreglo)-1)
+        mínimo actual = i
+        Para j en rango (i+1, len(arreglo)):
+            Si arreglo[j] < arreglo [i]:
+                minimo actual = j
+        Intercambiar(arreglo[i], arreglo[minimo actual])
+
+        

@@ -1,0 +1,8 @@
+El ordenamiento por selección es un algoritmo sencillo que organiza una lista seleccionando, en cada paso, 
+el elemento más pequeño o más grande de la parte no ordenada y colocándolo en su posición correcta dentro de la parte ordenada. 
+El proceso comienza buscando el mínimo de toda la lista y lo intercambia con el primer elemento. 
+Luego, se busca el mínimo del resto de la lista (sin el primer elemento) y se intercambia con el segundo, y así sucesivamente hasta que toda la lista esté ordenada. 
+Este método es iterativo y sigue un patrón de selección y colocación.
+
+El ordenamiento por selección es especialmente útil para listas pequeñas o en escenarios donde se desea minimizar la cantidad de intercambios, 
+ya que este algoritmo realiza pocos intercambios en comparación con otros métodos. Sin embargo, su rendimiento general no es eficiente para grandes volúmenes de datos.
